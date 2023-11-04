@@ -1,3 +1,3 @@
-# Unstoppable Wallet Website
+# CTRL wallet website
 
-https://unstoppable.money/
+

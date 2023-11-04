@@ -33,26 +33,18 @@ function FeaturesList({ isPremium }) {
     ]
   } else {
     items = [
-      ['Non-custodial', 'Truly self-custodial wallet that gives users unconditional control.'],
-      ['Multi-wallet', 'For easy management of many wallets within a single app while staying ultra secure.'],
-      ['Open-source', 'Verifiably open source with publicly visible development process.'],
-      ['Private', 'Built for strong privacy. No data collected. SPV wallet. Switchable RPC. TOR.'],
-      ['Secure', 'Built per standards. Secure enclave. Wallet seed with/out passwords. Audited code.'],
-      ['Universal Import/Export', 'Migrate to/from other wallets. Any seed length or language.'],
-      ['Advanced in Bitcoin', 'HD wallet, SPV, BIP 44/49/84, passphrases, Taproot, Timelocks, input/output shuffling.'],
-      ['EVM wallet', 'Supports all major EVM chains. L2 chains i.e. Arbitrum & Optimism. ENS support.'],
-      ['DeFi wallet', 'Interact with any DeFi service via WalletConnect V1 and V2.'],
-      ['DEX integration', 'Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc.'],
-      ['Market Analytics', 'Market research. Advanced token search & filtering. Market news.'],
-      ['Token Analytics', 'Extensive exchange data. On-chain token data. Token rank lists based on data.'],
-      ['TX Fee Controls', 'TX fee and nonce controls. EIP-1159 enabled. TX speedup/cancel.'],
-      ['TX Filtering', 'Extensive filtering. Anti-spoofing. Double spent alerts. Smart contract labelling.'],
-      ['NFT wallet', 'Send/receive NFT tokens. NFT market analytics.'],
-      ['Academy', 'Tutorials for onboarding crypto beginners. Extensive FAQ for troubleshooting.'],
-      ['Payment Contacts', 'Save payment addresses for convenient access.'],
-      ['Easy Backup', 'Options to backup encrypted wallets (aka private keys) to iCloud or offline storage.'],
-      ['Wallet Passwords', 'Extra security via BIP39 wallet passphrases. Allows to have one seed for many wallets.'],
-      ['Customizable UI', 'App themes, launch screen controls, balance view settings, app icon hide etc']
+      ['In Telegram', 'Wallet app is (natively) integrated in Telegram messenger'],
+      ['Non-custodial', 'Self-custodial. (?)You CTRL private keys'],
+      ['Open-source', '100% open-sourced. Publicly visible development process'],
+      ['Multi-wallet', 'Many wallets in a single app'],
+      ['Instant Send', 'Send crypto to any Telegram user who has no wallet yet'],
+      ['For communities in Telegram', 'Features (for groups & channels): Tipping; Paid subscriptions; Monetisation; ..??.., etc.'],
+      ['For merchants in Telegram ', 'Features: Invoices. ..??.. '],
+      ['(??) Payments & Transfers (globally)', '(?) In crypto. (??)Instant. (?)Borderless. (?)Globally. (?)Unsensored. (?)..(?) '],
+      ['Privacy-first', 'No data collecting / selling. No ads. ..??..'],
+      ['Recurrent crypto payments', '(??) Subscriptions paid in crypto automatically (Ex.: Netflix, Spotify, etc.)'],
+      ['..??..'],         
+      ['..??..'],         
     ]
   }
 
