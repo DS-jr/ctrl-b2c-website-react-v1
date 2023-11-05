@@ -35,16 +35,16 @@ function FeaturesList({ isPremium }) {
     items = [
       ['In Telegram', 'Wallet app is (natively) integrated in Telegram messenger'],
       ['Non-custodial', 'Self-custodial. (?)You CTRL private keys'],
-      ['Open-source', '100% open-sourced. Publicly visible development process'],
-      ['Multi-wallet', 'Many wallets in a single app'],
+      ['Open-source', '100% open code. Publicly visible development process'],
+      ['Multi-wallet', 'Many chains ((?)coins, (?)tokens) and wallets in a single app'],
       ['Instant Send', 'Send crypto to any Telegram user who has no wallet yet'],
       ['For communities in Telegram', 'Features (for groups & channels): Tipping; Paid subscriptions; Monetisation; ..??.., etc.'],
       ['For merchants in Telegram ', 'Features: Invoices. ..??.. '],
-      ['(??) Payments & Transfers (globally)', '(?) In crypto. (??)Instant. (?)Borderless. (?)Globally. (?)Unsensored. (?)..(?) '],
-      ['Privacy-first', 'No data collecting / selling. No ads. ..??..'],
+      ['(??) Payments & Transfers (globally)', '(?) In crypto. (??)Instant. (?)Borderless. (?)Globally. (?)Unsensored. (?)Private. (?)Permissionlees. (??)Bypass fiat barriers (??traditional finances) . ..??.. '],
+      ['Privacy-first', 'No KYC. No tracking. No data collecting / selling. No ads. ..??..'],
       ['Recurrent crypto payments', '(??) Subscriptions paid in crypto automatically (Ex.: Netflix, Spotify, etc.)'],
-      ['..??..'],         
-      ['..??..'],         
+      ['DeFi (wallet / enabled)', 'Swap. Stake. Use any DeFi service via WalletConnect. ...??..'],
+      ['..??..'],
     ]
   }
 
