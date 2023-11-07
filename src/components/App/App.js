@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 
 import Home from '../Home'
-import Page from '../Page'
-import Feature from '../Feature'
+// import Page from '../Page'
+// import Feature from '../Feature'
 import Footer from '../Footer/Footer'
 import Join from '../Join/Join'
 import GetWallet from '../GetWallet'
 import Quote from '../Quote/Quote'
 import FeaturedIn from '../FeaturedIn'
 import Roadmap from '../Roadmap/Roadmap'
-import OpenSource from '../OpenSource/OpenSource'
+// import OpenSource from '../OpenSource/OpenSource'
 import FeaturesList from '../Features/FeaturesList'
-import Demo from '../Demo'
+// import Demo from '../Demo'
 
 import './App.scss'
 
@@ -41,7 +41,7 @@ function App() {
         <FeaturesList />
       </div>
 
-      <div id="page-3" className="Page-dark">
+      {/* <div id="page-3" className="Page-dark">
         <Page img="bc-musta"
               onMouseLeave={() => onMouseLeave('hand')}
               featureImg={feature.hand}
@@ -70,8 +70,8 @@ function App() {
             title="Decentralized"
             info="Access and transact from anywhere at any time given there is internet." />
         </Page>
-      </div>
-      <div id="page-4" className="Page-black">
+      </div> */}
+      {/* <div id="page-4" className="Page-black">
         <Page img="bc-yak"
               onMouseLeave={() => onMouseLeave('independence')}
               featureImg={feature.independence}
@@ -105,8 +105,8 @@ function App() {
             } />
 
         </Page>
-      </div>
-      <div id="page-5" className="Page-dark">
+      </div> */}
+      {/* <div id="page-5" className="Page-dark">
         <Page img="bc-leo"
               onMouseLeave={() => onMouseLeave('face')}
               featureImg={feature.face}
@@ -136,19 +136,19 @@ function App() {
             info="Keep the context of your connection private even from your internet provider." />
 
         </Page>
-      </div>
+      </div> */}
 
-      <div className="Page-black">
+      {/* <div className="Page-black">
         <OpenSource />
-      </div>
+      </div> */}
 
       <div className="Page-black">
         <FeaturedIn />
       </div>
 
-      <div className="Page-black">
+      {/* <div className="Page-black">
         <Demo />
-      </div>
+      </div> */}
 
       <div id="page-6" className="Page-black">
         <Quote />

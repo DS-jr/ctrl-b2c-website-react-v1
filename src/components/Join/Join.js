@@ -9,10 +9,10 @@ function Join() {
         <div className="Page-content">
           <div className="Page-end">
             <div className="Section-text Join-section-text text-gradient">
-              Join Unstoppables
+              Join CTRL
             </div>
             <div className="Section-info Join-section-info">
-              Stay on top of Unstoppable happenings. Be the first to know about new features, user reported issues and things we work on!
+              Be the first to know about our updates
             </div>
           </div>
           <div className="Page-start">
