@@ -18,10 +18,10 @@ function Banner() {
         <div className="Banner-end">
           <div className="Banner-end-content">
             <div className="Banner-title text-gradient">
-              Be Unstoppable
+              CTRL your keys
             </div>
             <div className="Banner-title-slogan my-2 py-2 mb-3">
-              Unchain Assets | Go Borderless | Stay Private
+            Non-custodial open-source wallet in Telegram
             </div>
             <GetWalletActions />
             {/*<div className="mt-5 pt-md-5 pt-sm-0">*/}

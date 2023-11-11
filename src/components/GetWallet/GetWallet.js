@@ -11,7 +11,7 @@ function GetWallet() {
     <Container clipped={false}>
       <div className="GetWallet">
         <div className="GetWallet-text text-gradient fw-normal">
-          Get CTRL Wallet!
+          Get CTRL wallet!
         </div>
         <div className="GetWallet-action">
           <GetWalletActions />
