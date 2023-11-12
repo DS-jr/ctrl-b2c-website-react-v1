@@ -62,9 +62,11 @@ class Header extends Component {
     const { sticky } = this.state
     const navigation = () => (
       <div className="nav">
-        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Academy</a>
-        <Link className="nav-item" to="/faq">FAQ</Link>
-        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io/">About</a>
+
+        <Link className="nav-item" to="/#about">About</Link>
+        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://t.me/+9IhxoQn5gv9jZTY8">Community</a>
+        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="#comingsoon">FAQ</a>
+        {/* <Link className="nav-item" to="/faq">FAQ</Link> */ }
       </div>
     )
 
@@ -94,7 +96,7 @@ class Header extends Component {
           <div className="Header-collapse-menu" ref={r => this.dropdownNav = r}>
             {navigation(true)}
             <div className="nav-logo">
-              <img className="Logo" src="/images/HSlogo.svg" width="127" height="34" alt="" />
+              <img className="Logo" src="/images/cLogo.svg" width="127" height="34" alt="" />
             </div>
           </div>
         </div>

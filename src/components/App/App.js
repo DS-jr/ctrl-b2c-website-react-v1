@@ -148,7 +148,7 @@ function App() {
 
       {/* <div className="Page-black">
         <Demo />
-      </div> */}
+      </div>
 
       <div id="page-6" className="Page-black">
         <Quote />
@@ -159,14 +159,18 @@ function App() {
           <GetWallet />
         </div>
       </div>
-
+*/}
+      {/*
       <div className="Page-dark">
         <Roadmap />
       </div>
+      */}
 
+      {/*
       <div id="page-8" className="Page-dark">
         <Join />
       </div>
+      */}
 
       <div id="page-9" className="Page-dark">
         <Footer />

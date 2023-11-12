@@ -1,8 +1,8 @@
 {
-  "name": "web-bankwallet",
+  "name": "ctrl-wallet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://unstoppable.money",
+  "homepage": "https://ctrl.finance",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.4",
@@ -33,7 +33,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "scp -r ./build/* deploy@178.62.214.140:/var/www/unstoppable.money",
+    "deploy": "scp -r ./build/* deploy@178.62.214.140:/var/www/ctrl.finance",
     "deploy-dev": "scp -r ./build/* ubuntu@64.227.26.93:/home/ubuntu/hspay-dev"
   },
   "eslintConfig": {
