@@ -63,9 +63,9 @@ class Header extends Component {
     const navigation = () => (
       <div className="nav">
 
-        <Link className="nav-item" to="/#about">About</Link>
+        {/* <Link className="nav-item" to="/#about">About</Link>
         <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://t.me/+9IhxoQn5gv9jZTY8">Community</a>
-        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="#comingsoon">FAQ</a>
+        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="#comingsoon">FAQ</a> */}
         {/* <Link className="nav-item" to="/faq">FAQ</Link> */ }
       </div>
     )

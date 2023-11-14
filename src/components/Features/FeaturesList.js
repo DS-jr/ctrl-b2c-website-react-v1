@@ -33,18 +33,18 @@ function FeaturesList({ isPremium }) {
     ]
   } else {
     items = [
-      ['In Telegram', 'Wallet app is (natively) integrated in Telegram messenger'],
-      ['Non-custodial', 'Self-custodial. (?)You CTRL private keys'],
+      ['In Telegram', 'Wallet app is natively integrated in Telegram messenger'],
+      ['Non-custodial', 'You control private keys. Nobody has access to your funds. No KYC, AML, FATCA'],
       ['Open-source', '100% open code. Publicly visible development process'],
-      ['Multi-wallet', 'Many chains ((?)coins, (?)tokens) and wallets in a single app'],
+      ['Multi-wallet', 'Many chains, tokens & wallets in a single app'],
       ['Instant Send', 'Send crypto to any Telegram user who has no wallet yet'],
-      ['For communities in Telegram', 'Features (for groups & channels): Tipping; Paid subscriptions; Monetisation; ..??.., etc.'],
-      ['For merchants in Telegram ', 'Features: Invoices. ..??.. '],
-      ['(??) Payments & Transfers (globally)', '(?) In crypto. (??)Instant. (?)Borderless. (?)Globally. (?)Unsensored. (?)Private. (?)Permissionlees. (??)Bypass fiat barriers (??traditional finances) . ..??.. '],
-      ['Privacy-first', 'No KYC. No tracking. No data collecting / selling. No ads. ..??..'],
-      ['Recurrent crypto payments', '(??) Subscriptions paid in crypto automatically (Ex.: Netflix, Spotify, etc.)'],
-      ['DeFi (wallet / enabled)', 'Swap. Stake. Use any DeFi service via WalletConnect. ...??..'],
-      ['..??..'],
+      ['For communities in Telegram', 'Tipping in crypto. Paid subscriptions. Voting. Features for admins. Features for DAOs'],
+      ['For businesses in Telegram', 'Accept crypto. Invoices. White label. Recurrent crypto payments'],
+      ['Payments & Transfers globally', 'In crypto. Unsensored. Permissionlees. Borderless. Instant'],
+      ['Privacy-first', 'No tracking. No data collecting / selling. No ads'],
+      ['DeFi', 'Swap. Stake. Use any dApp via WalletConnect'],
+      ['Fiat <-> Crypto', 'Buy, sell & exchange crypto'],
+      ['Wallet for your Grandma', 'Native familiar experience for Telegram users. No separate app. Low friction'],
     ]
   }
 
